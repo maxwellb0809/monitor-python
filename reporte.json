@@ -1,0 +1,30 @@
+{
+    "fecha_ejecucion": "2026-08-19 12:28:45",
+    "total_sitios": 4,
+    "resultados": [
+        {
+            "url": "https://google.com",
+            "estado": "ONLINE",
+            "codigo_http": 200,
+            "latencia_ms": 1120.23
+        },
+        {
+            "url": "https://github.com",
+            "estado": "ONLINE",
+            "codigo_http": 200,
+            "latencia_ms": 742.27
+        },
+        {
+            "url": "https://httpbin.org/status/404",
+            "estado": "ERROR",
+            "codigo_http": 404,
+            "latencia_ms": 674.87
+        },
+        {
+            "url": "https://esta-pagina-no-existe-12345.com",
+            "estado": "OFFLINE",
+            "codigo_http": null,
+            "error": "HTTPSConnectionPool(host='esta-pagina-no-existe-12345.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='esta-pagina-no-existe-12345.com', port=443): Failed to resolve 'esta-pagina-no-existe-12345.com' ([Errno 11001] getaddrinfo failed)\"))"
+        }
+    ]
+}
